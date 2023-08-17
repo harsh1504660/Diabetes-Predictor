@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-pipe = pickle.load(open('pipe.pkl','rb'))
+
 df = pickle.load(open('df.pkl','rb'))
 lor = pickle.load(open('lor.pkl','rb'))
 
